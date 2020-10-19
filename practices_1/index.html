@@ -9,8 +9,11 @@
     </head>
     <body>
         <div class="container">
-            <form name="age form" class="age" onsubmit="return validation()">
-                <input type="number" name="age" class="age1" placeholder="How old are you? Introduce your age here">
+            <form name="age_form" class="age" onsubmit="return validation()">
+                <input type="number" id="age" class="age1" placeholder="How old are you? Introduce your age here">
+            </form>
+            <form name="exam_form" class="exam" onsubmit="return validation_exam()">
+                <input type="number" id="result" class="exam1" placeholder="Introduce your evaluation result">
             </form>
         </div>
         <script src="app.js" charset="utf-8"></script>
